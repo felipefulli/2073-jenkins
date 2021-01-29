@@ -6,7 +6,7 @@ INSERT INTO `users` (`user_id`, `email`, `enabled`, `username`, `role`, `passwor
 INSERT INTO `leilao` (`id`, `data_abertura`, `nome`, `valor_inicial`, `usuario_user_id`, `fechado`) VALUES
 (1,	'2020-08-03',	'Tablet Xpto 3',	5.00,	1, false),
 (2,	'2020-08-03',	'Computador Z3',	500.00,	3, false);
-(2,     '2021-01-29',   'Redmi Note 7 ',        700.00, 3, false);
+(2,     '2021-01-29',   'Redmi Note 7 ',        700.00, 3, false); #inseti esta linha manualmente
 
 INSERT INTO `lance` (`id`, `data`, `valor`, `leilao_id`, `usuario_user_id`) VALUES
 (1,	'2020-08-04',	10.00,	1,	3),
